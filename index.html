@@ -1,0 +1,29 @@
+<html>
+  <head>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.2/angular.min.js"></script>
+    <script src="js/app.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/main.css"/>
+    <link href="https://fonts.googleapis.com/css?family=Sansita" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Bree+Serif" rel="stylesheet">
+  </head>
+  <body ng-app="jsonResumeApp">
+      <div ng-controller="headerController" class="header">
+          <h1>
+            {{firstName}} {{lastName}}
+          </h1>
+          <div>{{about}}</div>
+      </div>
+      <hr>
+      <div class="about">
+          <h3>About</h3>
+      </div>
+      <hr>
+      <div class="recommendation">
+          <h3>Recommendation</h3>
+      </div>
+      <hr>
+      <div class="connect">
+          <h3>Connect Me</h3>
+      </div>
+  </body>
+</html>
