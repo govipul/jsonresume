@@ -7,6 +7,8 @@ resumeApp.controller("headerController", function headerController($scope, fileS
       $scope.firstName = data["first-name"];
       $scope.lastName = data["last-name"];
       $scope.about= data.about;
+      $scope.experience = data.experience;
+      $scope.recommendations = data.recommendations;
     });
   }
   init();
