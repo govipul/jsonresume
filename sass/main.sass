@@ -1,6 +1,11 @@
-$section-height: 300px
+$section-height: 350px
+$font-size: 25px
+$font-family: 'Bree Serif', serif
+body
+  font-family: $font-family
+
 h3
-  font-family:'Bree Serif', serif
+  font-family:$font-family
   text-align: center
   text-shadow: 5px 5px #EFEFEF
   text-decoration: underline
@@ -10,24 +15,31 @@ h3
   background-color: #8B0000
   text-align: center
   color: #E5E5E5
-  font-family: Sansita, sans-serif
   height: $section-height * 2
 
   h1
-    font-size: 150px
+    font-size: $font-size * 5
     text-shadow: 10px 10px 8px #19192F
 
   div
     position: relative
     bottom: -150px
-    font-size: 25px
+    font-size: $font-size
+
 .flex-container
   display: flex
   width: 100%
-  height: $section-height
+  //height: $section-height
   flex-direction: row
-  flex-wrap: wrap
+  flex-wrap: nowrap
   align-items: baseline
+  justify-content: space-around
 
   .flex-item
     flex-grow: 1
+    width: 33.33%
+    flex-shrink: 1
+
+    h4
+      //font-family:$font-family
+      text-align: center

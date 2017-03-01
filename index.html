@@ -18,27 +18,17 @@
           <h3>About</h3>
           <div class="flex-container">
             <div ng-repeat="item in experience" class="flex-item">
-                <div>{{item.name}}</div>
+                <h4>{{item.name}}</h4>
+                <h4>{{item["from-date"] | date: "MMM,yyyy"}}&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{{item["to-date"]| date: "MMM,yyyy"}}</h4>
+                <div>
+                  <ul>
+                    <li ng-repeat="role in item.roles">{{role}}</li>
+                  </ul>
+                </div>
             </div>
           </div>
       </div>
       <hr>
-      <div class="recommendation">
-          <h3>Recommendation</h3>
-          <div class="flex-container">
-            <div ng-repeat="item in experience" class="flex-tem">
-                <div>{{item.name}}</div>
-            </div>
-          </div>
-      </div>
-      <hr>
-      <div class="connect">
-          <h3>Connect Me</h3>
-          <div class="flex-container">
-            <div ng-repeat="item in experience" class="flex-tem">
-                <div>{{item.name}}</div>
-            </div>
-          </div>
-      </div>
+      
   </body>
 </html>
