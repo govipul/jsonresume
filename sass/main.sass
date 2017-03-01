@@ -3,18 +3,18 @@ $font-size: 25px
 $font-family: 'Bree Serif', serif
 body
   font-family: $font-family
+  background-color: #E5E5E5
+  color: #8B0000
 
 h3
   font-family:$font-family
   text-align: center
-  text-shadow: 5px 5px #EFEFEF
+  text-shadow: 1px 1px 1px #FF8B8B
   text-decoration: underline
 
 .header
   border: dotted solid
-  background-color: #8B0000
   text-align: center
-  color: #E5E5E5
   height: $section-height * 2
 
   h1
@@ -29,17 +29,20 @@ h3
 .flex-container
   display: flex
   width: 100%
-  //height: $section-height
   flex-direction: row
   flex-wrap: nowrap
   align-items: baseline
-  justify-content: space-around
+  justify-content: space-between
+  //flex-basis: 100%
 
   .flex-item
     flex-grow: 1
     width: 33.33%
     flex-shrink: 1
+    margin: 0.5%
 
-    h4
-      //font-family:$font-family
+    p
+      text-align: center
+
+    h4, h5
       text-align: center

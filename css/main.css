@@ -1,19 +1,19 @@
 body {
   font-family: "Bree Serif", serif;
+  background-color: #E5E5E5;
+  color: #8B0000;
 }
 
 h3 {
   font-family: "Bree Serif", serif;
   text-align: center;
-  text-shadow: 5px 5px #EFEFEF;
+  text-shadow: 1px 1px 1px #FF8B8B;
   text-decoration: underline;
 }
 
 .header {
   border: dotted solid;
-  background-color: #8B0000;
   text-align: center;
-  color: #E5E5E5;
   height: 700px;
 }
 
@@ -34,15 +34,20 @@ h3 {
   flex-direction: row;
   flex-wrap: nowrap;
   align-items: baseline;
-  justify-content: space-around;
+  justify-content: space-between;
 }
 
 .flex-container .flex-item {
   flex-grow: 1;
   width: 33.33%;
   flex-shrink: 1;
+  margin: 0.5%;
 }
 
-.flex-container .flex-item h4 {
+.flex-container .flex-item p {
+  text-align: center;
+}
+
+.flex-container .flex-item h4, .flex-container .flex-item h5 {
   text-align: center;
 }

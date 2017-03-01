@@ -29,6 +29,28 @@
           </div>
       </div>
       <hr>
-      
+      <div class="recommendation">
+          <h3>Recommendation</h3>
+          <div class="flex-container">
+            <div ng-repeat="item in recommendations" class="flex-item">
+                <h4>{{item["first-name"]}} {{item["last-name"]}}</h4>
+                <p>{{item.designation}}</p>
+                <h4>@{{item.company}}</h4>
+                <div>
+                  {{item.description}}
+                </div>
+                <h5>{{item.relation}}</h5>
+            </div>
+          </div>
+      </div>
+      <hr>
+      <div class="connect">
+          <h3>Connect Me</h3>
+          <div class="flex-container">
+            <div ng-repeat="item in experience" class="flex-tem">
+                <div>{{item.name}}</div>
+            </div>
+          </div>
+      </div>
   </body>
 </html>
