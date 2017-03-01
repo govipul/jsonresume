@@ -1,13 +1,12 @@
 body {
   font-family: "Bree Serif", serif;
-  background-color: #E5E5E5;
+  background-color: #FFFFFF;
   color: #8B0000;
 }
 
 h3 {
   font-family: "Bree Serif", serif;
   text-align: center;
-  text-shadow: 1px 1px 1px #FF8B8B;
   text-decoration: underline;
 }
 
