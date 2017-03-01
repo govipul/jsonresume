@@ -9,6 +9,9 @@ resumeApp.controller("headerController", function headerController($scope, fileS
       $scope.about= data.about;
       $scope.experience = data.experience;
       $scope.recommendations = data.recommendations;
+      $scope.social=data.social;
+      $scope.email = data.email;
+      $scope.mobile=data["mob-number"];
     });
   }
   init();
