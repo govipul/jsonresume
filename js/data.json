@@ -4,28 +4,34 @@
   "email": "vipul_gos@yahoo.co.in",
   "mob-number":"+91 8451008767",
   "about": "Vipul has more than 6 years of experience in delivering business solutions based upon modern technologies. He has been part of and have held important positions in many projects delivering solutions to the apparel and life sciences industry. Hardworking, positive, easy learner and social are attributes that describe Vipul’s personality.",
-  "experience" : {
-    "company": {
+  "experience" : [
+    {
+      "name" : "MindValley",
+      "from-date" : "Start Soon",
+      "to-date": "Yet To Explore",
+      "roles": ["Grow with company", "Help company to grow", "Keep On Learning", "Help world"]
+    },
+    {
       "name" : "Addnode India Pvt Ltd",
-      "from-date" : "22-10-2012",
-      "to-date": "Till Date",
+      "from-date" : "2012-10-22T09:00:00",
+      "to-date": "2017-03-03T09:00:00",
       "roles": ["Development lead and coach for the development team.", "Develop High level and Low level design documents, based on the functional specification and requirements.", "Delivering enhancements and bug fixes to multiple clients."]
     },
-    "company": {
+    {
       "name" : "Capgemini India",
-      "from-date" : "02-04-2012",
-      "to-date": "20-10-2012",
+      "from-date" : "2012-04-02T09:00:00",
+      "to-date": "2012-10-20T09:00:00",
       "roles": ["Lead the offshore team of 12 juniors.", "Automate the monitoring of system for support.", "Align the system with new FDA rules and regulations."]
     },
-    "company": {
+    {
       "name" : "Geometric India Pvt Ltd",
-      "from-date" : "01-04-2010",
-      "to-date": "01-04-2012",
+      "from-date" : "2010-04-01T09:00:00",
+      "to-date": "2012-04-01T09:00:00",
       "roles": ["Moving the system from other PLM to latest Enovia PLM system using Life science accelerator.", "Discuss the technical solutions and approaches with the technical lead and team member with the problem faced during development.", "Interact with onsite coordinator and team members in resolving technical issues."]
     }
-  },
-  "recommendations": {
-    "recommended" : {
+  ],
+  "recommendations": [
+    {
       "first-name": "Vineet",
       "last-name": "Saurabh",
       "designation": "PLM Consultant & Technical Mentor ",
@@ -33,7 +39,7 @@
       "description": "Vipul is very hard-working and addicted to technology. Every manager in our organization wants him on board. You give him one task and he will come back with five solutions. He is one of the top performer in the company. Above all that he is very simple and modest, ready to help round the clock.",
       "relation": "Vineet worked directly with Vipul at AddNode India Pvt Ltd"
     },
-    "recommended" : {
+    {
       "first-name": "Rahul",
       "last-name": "Sharma",
       "designation": "Director Software Engineering",
@@ -41,7 +47,7 @@
       "description": "I worked with Vipul for almost a year and during this period we worked on 3-4 projects in same team. Vipul is very talented and technically sound in PLM domain. He comes with good ideas and focus on end delivery. He did excellent job in not only in developement but also suugested test cases for QA team. I always enjoyed working with him and wish all the very best for future endeavors.",
       "relation": "Rahul was Vipul's client"
     },
-    "recommended" : {
+    {
       "first-name": "Mahesh",
       "last-name": "Kumawat",
       "designation": "Project Manager",
@@ -49,10 +55,11 @@
       "description": "I have got a chance to manage a team comprising of relatively lesser experienced members. Being a challenging project from business perspective I was bit concerned about the team formation. However my concerns were short-lived once results started to come in. Vipul was one of those team members who despite of being a newbie learned the technologies quickly and delivered beyond the limits. He played a role of all-rounder in the team as and when project demanded. Vipul, instead of being reactive, is a proactive person who setups benchmarks for fellow team members in terms of learning, productivity, process compliance etc. He is a very easy going person who believes in helping his team members and raises team spirits to new heights. His ability to accept new responsibilities and adapt to the situations is praiseworthy.I see a bright future in front of him and wish all the best.",
       "relation": "Mahesh managed Vipul at Geometric Ltd"
     }
-  },
+  ],
   "social" : {
     "facebook": "https://www.facebook.com/vipul.goswami?ref=bookmarks",
     "linkedin": "https://www.linkedin.com/in/vipulgoswami",
-    "codepen": "http://codepen.io/govipul/"
+    "codepen": "http://codepen.io/govipul/",
+    "github": "https://github.com/govipul"
   }
 }
