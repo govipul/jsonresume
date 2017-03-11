@@ -18,14 +18,16 @@
       height: 33%;
       font-size: 30px; }
     .header .about {
-      font-size: 35px;
+      font-size: 45px;
       text-align: center; }
-    .header .icon img {
-      box-shadow: 0px 0px 4px 3px #8B0000, 1px 1px 6px 5px #B96666, 1px 1px 8px 7px #E7CCCC, 0px 0px 6px 15px #B96666, 0px 0px 8px 17px #E7CCCC;
-      width: 500px;
-      height: 500px;
-      border-width: 10px;
-      border-radius: 50% 50%; }
+    .header .icon {
+      vertical-align: middle; }
+      .header .icon img {
+        box-shadow: 0px 0px 4px 3px #8B0000, 1px 1px 6px 5px #B96666, 1px 1px 8px 7px #E7CCCC, 0px 0px 6px 15px #B96666, 0px 0px 8px 17px #E7CCCC;
+        width: 500px;
+        height: 500px;
+        border-width: 10px;
+        border-radius: 50% 50%; }
   .flex-container {
     display: -webkit-flex;
     display: -ms-flexbox;
